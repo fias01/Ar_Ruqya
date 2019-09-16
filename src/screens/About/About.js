@@ -58,7 +58,7 @@ class About extends Component {
               </View>
               <View style={styles.mainItem}>
                 <Icon name="public" style={styles.iconStyle}/>
-                <Text style={[styles.mainText,{color: 'blue'}]} onPress={ ()=>{ Linking.openURL('http://pondokinformatika.com')}}>http://pondokinformatika.com</Text>
+                <Text style={[styles.mainText,{color: 'rgb(45, 145, 242)'}]} onPress={ ()=>{ Linking.openURL('http://pondokinformatika.com')}}>http://pondokinformatika.com</Text>
               </View>
               <View style={styles.mainItem}>
                 <Icon name="phone-iphone" style={styles.iconStyle}/>
