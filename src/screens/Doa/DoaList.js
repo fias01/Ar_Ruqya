@@ -30,16 +30,15 @@ class DoaList extends Component {
           </View>
 
           <View style={[styles.flex, styles.column, {height: '85%',}]}>
-            <TouchableOpacity style={[styles.row, styles.touch]}>
+            <TouchableOpacity
+              style={[styles.row, styles.touch]}
+              onPress={() => navigation.navigate('Ayat')}
+            >
               <View style={{paddingRight: 20,}}>
                 <Text style={[styles.type]}>Ayat Al Qur'an</Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={[styles.row, styles.touch]}>
-              <View style={{paddingRight: 20,}}>
-                <Text style={[styles.type]}>Doa Dalam Hadist </Text>
-              </View>
-            </TouchableOpacity>
+
           </View>
 
         </View>

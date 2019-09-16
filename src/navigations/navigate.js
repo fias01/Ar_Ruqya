@@ -5,6 +5,7 @@ import Home from '../screens/Home/Home';
 import About from '../screens/About/About';
 import DoaList from '../screens/Doa/DoaList';
 import DoaMain from '../screens/Doa/DoaMain';
+import Ayat from '../screens/Doa/Ayat';
 import Herbal from '../screens/Herbal/Herbal';
 import HerbalDetail from '../screens/HerbalDetail/HerbalDetail';
 import Article from '../screens/Article/Article';
@@ -25,6 +26,9 @@ export default createStackNavigator(
      },
     DoaMain: {
        screen: DoaMain,
+     },
+    Ayat: {
+       screen: Ayat,
      },
     Herbal: {
        screen: Herbal,
