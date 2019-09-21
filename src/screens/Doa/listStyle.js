@@ -19,7 +19,8 @@ const styles = StyleSheet.create({
   type: {
     fontSize:20,
     letterSpacing: 1,
-    color:'rgb(70, 70, 70)'
+    color:'rgb(70, 70, 70)',
+    backgroundColor: '#fff',
   },
   back: {
     width: 30,

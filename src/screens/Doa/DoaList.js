@@ -8,6 +8,7 @@ import {
   StyleSheet,
   FlatList,
   Dimensions,
+  ImageBackground,
   Animated,
 } from 'react-native';
 import styles from './listStyle';
@@ -31,12 +32,22 @@ class DoaList extends Component {
 
           <View style={[styles.flex, styles.column, {height: '85%',}]}>
             <TouchableOpacity
-              style={[styles.row, styles.touch]}
+              style={[styles.row, styles.touch,]}
               onPress={() => navigation.navigate('Ayat')}
             >
-              <View style={{paddingRight: 20,}}>
-                <Text style={[styles.type]}>Ayat Al Qur'an</Text>
-              </View>
+              <ImageBackground
+                source={require('../../../assets/quran.png')}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                }}
+              >
+                <View style={{paddingRight: 20,}}>
+                  <Text style={[styles.type]}>Ayat Al Qur'an</Text>
+                </View>
+              </ImageBackground>
             </TouchableOpacity>
 
           </View>

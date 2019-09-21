@@ -29,11 +29,8 @@ export default class Ayat extends Component{
         <ScrollView
           scrollEnabled
           showsHorizontalScrollIndicator={true}
-          decelerationRate={0}
           style={{flex:3, margin:6, marginTop:10
         }}>
-
-
           {ayat.map((ayatlist, index) =>
             <View key={index} style={{backgroundColor:'#ffffff', marginTop:10, padding:12, marginBottom: 10}}>
               <Text style={styles.textJudul}>{ayatlist.surat}</Text>
