@@ -2,10 +2,9 @@ import React, {Component} from "react";
 import ayat from '../../data/ayat'
 import {Content, Card, CardItem,Body} from 'native-base';
 import Icon from "react-native-vector-icons/MaterialIcons";
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { View,TouchableHighlight,Image, Text,StyleSheet,ScrollView, TouchableOpacity } from 'react-native';
+import { View,TouchableHighlight,Image, Text,StyleSheet,ScrollView, TouchableOpacity, Dimensions } from 'react-native';
 
+const { width, height } = Dimensions.get('window');
 // const ayat = [
 //   {
 //     "id": 1,
@@ -31,11 +30,18 @@ export default class Ayat extends Component{
           showsHorizontalScrollIndicator={true}
           style={{flex:3, margin:6, marginTop:10
         }}>
-          {ayat.map((ayatlist, index) =>
-            <View key={index} style={{backgroundColor:'#ffffff', marginTop:10, padding:12, marginBottom: 10}}>
-              <Text style={styles.textJudul}>{ayatlist.surat}</Text>
-              <Text style={styles.textArab}>{ayatlist.ayat}</Text>
-            </View>
+          {ayat.map((item, index) =>
+            <View  key={index} style={styles.wrapper}>
+              <View style={{flexDirection: 'row'}}>
+                <Text style={[styles.judul, styles.textdetail, {flex: 11}]}>{item.surat}</Text>
+                <TouchableOpacity style={{flex: 1}}>
+                  <View style={{width: 40, height: 40, alignItems: 'center', justifyContent: 'center'}}>
+                    <Icon style={{fontWeight:'bold', fontSize:25}} name='content-copy' />
+                  </View>
+                </TouchableOpacity>
+              </View>
+		      		<Text style={styles.arab}>{item.arab}</Text>
+    				</View>
           )}
         </ScrollView>
       </View>
@@ -44,35 +50,67 @@ export default class Ayat extends Component{
 }
 
 const styles = StyleSheet.create({
-   textJudul: {
-      padding:6,
-      fontSize:20,
-      marginTop: 10,
-      fontFamily: 'SourceSansPro',
-      fontWeight: 'bold',
-      textAlign: 'center',
-      color:'rgb(138, 138, 138)',
-      alignItems: 'center',
-      justifyContent: 'center'
-   },
-   textArab: {
-      fontSize:19,
-      fontFamily: 'lotus-linotype-light',
-      color:'#333333',
-      marginTop:10,
-      textAlign: 'auto',
-      lineHeight: 35,
-      letterSpacing: 2,
-      marginBottom: 10
-   },
+  wrapper: {
+		backgroundColor: '#fff',
+		width: Dimensions.get('window').width - 30,
+		alignSelf: 'center',
+		paddingTop: 20,
+		paddingHorizontal: 15,
+		margin: 15,
+		marginTop: 0,
+	},
+
+  judul: {
+    fontFamily: 'SourceSansPro',
+    color: 'rgb(119, 119, 119)',
+		alignSelf: 'center',
+		fontSize: 23,
+    fontWeight: 'bold',
+		marginBottom: 30,
+		marginTop: 5,
+		textAlign: 'center',
+		lineHeight: 30,
+	},
+	arab: {
+		color: '#2C3445',
+		fontSize: 30,
+		marginBottom: 40,
+		lineHeight: 40,
+    fontFamily: 'Scheherazade',
+    // fontWeight: 'bold',
+	},
+	terjemahan: {
+		fontSize: 16,
+		fontStyle: 'italic',
+		lineHeight: 24,
+    fontFamily: 'SourceSansPro',
+    color: 'rgb(119, 119, 119)',
+		marginBottom: 20,
+	},
+
    back: {
      width: 30,
      height:40,
      alignItems: 'flex-start',
    },
    header: {
-     fontFamily: 'SourceSansPro',
      fontWeight: 'bold',
      fontSize: 20,
    },
+
+   copy: {
+    fontFamily: 'SourceSansPro',
+    fontSize: 17,
+    textAlign:'center',
+    // backgroundColor:'#00dfbe',
+    backgroundColor:'#ecf2f5',
+    padding:5,
+    justifyContent:'center',
+    marginTop:15,
+    borderRadius: 10,
+  },
+  textCopy: {
+    color:'#666666',
+    fontSize:12
+  },
   })
