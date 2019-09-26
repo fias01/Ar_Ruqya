@@ -82,6 +82,14 @@ class HerbalDetail extends Component {
         <View style={[styles.flex, styles.content]}>
           <View style={[styles.flex, styles.contentHeader]}>
             <Text style={styles.title}>{herbaldetail.title}</Text>
+            <View style={[
+                styles.row,
+                { alignItems: 'center', marginVertical: 36 / 2 }
+              ]}>
+              <Text style={{ marginLeft: 8, color: '#BCCCD4', marginTop: -10}}>
+                {herbaldetail.subtitle}
+              </Text>
+            </View>
             <View>
               <Text style={styles.description}>
                 {herbaldetail.description}

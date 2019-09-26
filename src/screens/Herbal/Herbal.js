@@ -11,7 +11,6 @@ renderHerbal = () => {
       <ScrollView
         scrollEnabled
         showsHorizontalScrollIndicator={true}
-        decelerationRate={0}
         style={{flex:3, margin:6, marginTop:10, paddingLeft: 7, paddingRight: 7
       }}>
         <View>
@@ -36,10 +35,8 @@ renderList = (item, index) => {
       onPress={() => navigation.navigate('HerbalDetail', { herbaldetail: item })}
     >
       <View style={{backgroundColor:'#ffffff', marginTop:10, padding:12, flexDirection: 'row', borderRadius: 9}}>
-        <Image style={{width: 50, height: 50, borderRadius: 9}}
-          source={ item.photo_url }
-        />
-      <View style={{flexDirection: 'column'}}>
+        <Text style={{fontSize:25,fontWeight: 'bold', color:'#333', paddingTop: 10, marginHorizontal: 5}}>{item.id}</Text>
+        <View style={{flexDirection: 'column'}}>
           <Text style={styles.Title}>{item.title}</Text>
           <Text style={styles.subTitle}>{item.subtitle}</Text>
         </View>
@@ -109,3 +106,7 @@ const styles = StyleSheet.create({
      fontSize: 20,
    },
   })
+
+  // <Image style={{width: 50, height: 50, borderRadius: 9}}
+  //   source={ item.photo_url }
+  // />
