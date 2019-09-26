@@ -79,7 +79,7 @@ class Article extends Component {
           </ScrollView>
           {this.renderDots()}
         </View>
-        
+
         <View style={[styles.flex, styles.content]}>
           <View style={[styles.flex, styles.contentHeader]}>
             <Image style={[styles.avatar, styles.shadow]} source={article.avatar} />

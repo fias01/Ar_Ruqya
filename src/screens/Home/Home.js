@@ -68,6 +68,7 @@ class Home extends Component {
           <FlatList
             horizontal
             pagingEnabled
+            maxToRenderPerBatch={3}
             scrollEnabled
             showsHorizontalScrollIndicator={false}
             style={{ overflow:'visible', height: 250 }}
@@ -107,7 +108,7 @@ class Home extends Component {
               </Text>
               <View style={[ styles.row, { justifyContent: 'space-between', alignItems: 'flex-end', }]}>
                 <Text style={{ color: 'rgb(133, 132, 132)' }}>
-                  {item.description.split('').slice(0, 50)}...
+                  {item.description[0].split('').slice(0, 50)}...
                 </Text>
                 <FontAwesome
                   name="chevron-right"
