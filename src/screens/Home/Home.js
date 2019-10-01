@@ -16,7 +16,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Icon from "react-native-vector-icons/MaterialIcons";
 import Octicons from 'react-native-vector-icons/Octicons';
 import Swiper from 'react-native-swiper';
-import { listmenu, mocks } from '../../data/data';
+import { listmenu, hometic } from '../../data/data';
 import styles from './styles';
 import axios from 'axios';
 import * as theme from '../theme';
@@ -156,9 +156,9 @@ class Home extends Component {
         onPress={() => navigation.navigate(item.url)}
         style={[
         styles.flex,styles.menu, styles.shadow,]}>
-        <View style={[styles.flex, {alignItems: 'center', }]}>
+        <View style={[styles.flex, {alignItems: 'center', marginTop: -6, marginBottom: -5}]}>
           <Image style={[styles.menuImage]} source={ item.preview } />
-          <Text style={[styles.itemenu, {position: 'absolute', marginTop: '74%', fontWeight: 'bold', color: 'rgb(66, 66, 66)'}]}>{ item.title }</Text>
+          <Text style={[styles.itemenu, {position: 'absolute', marginTop: '80%', fontWeight: 'bold', color: 'rgb(66, 66, 66)'}]}>{ item.title }</Text>
         </View>
       </TouchableOpacity>
     )
@@ -187,7 +187,7 @@ class Home extends Component {
 
 Home.defaultProps = {
   datamenu: listmenu,
-  datahome: mocks,
+  datahome: hometic,
 };
 
 export default Home;

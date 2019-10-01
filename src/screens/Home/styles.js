@@ -42,8 +42,8 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 12,
   },
   menuImage: {
-    width: (width - (120)) / 2,
-    height: (width - (120)) / 2,
+    width: (width - (125)) / 2,
+    height: (width - (125)) / 2,
   },
   itemenu: {
     justifyContent: 'center',
