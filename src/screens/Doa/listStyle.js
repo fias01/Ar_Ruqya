@@ -16,25 +16,34 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 20,
   },
+  typelist: {
+    backgroundColor: 'rgba(61, 61, 61, 0.55)',
+    width: '100%',
+    height: '25%',
+    paddingLeft: '30%',
+    justifyContent: 'center'
+  },
   type: {
+    width: '100%',
     fontSize:20,
     letterSpacing: 1,
-    color:'rgb(70, 70, 70)',
-    backgroundColor: '#fff',
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    color:'#fff',
+    alignItems: 'center'
   },
   back: {
     width: 30,
     height:40,
-    alignItems: 'flex-start',
+
   },
   touch: {
-    margin: 6,
+    margin: 10,
     marginBottom: 0,
     marginTop: 15,
-    padding: 15,
-    height: '45%',
+    height: '95%',
     backgroundColor: '#fff',
-    borderRadius: 8
+    borderRadius: 16
   }
 });
 

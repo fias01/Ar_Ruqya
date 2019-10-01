@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import ayat from '../../data/ayat'
+import hadist from '../../data/hadist'
 import {Content, Card, CardItem,Body} from 'native-base';
 import Icon from "react-native-vector-icons/MaterialIcons";
 import { View,TouchableHighlight,Image, Text,StyleSheet,ScrollView, TouchableOpacity, Dimensions } from 'react-native';
@@ -15,12 +15,9 @@ export default class Hadist extends Component{
           showsHorizontalScrollIndicator={true}
           style={{flex:3, margin:6, marginTop:10
         }}>
-          {ayat.map((item, index) =>
-            <View  key={index} style={styles.wrapper}>
-            <View style={{flexDirection: 'row'}}>
-              <Text style={[styles.judul, styles.textdetail, {flex: 11}]}>{item.surat}</Text>
-            </View>
-		      		<Text style={[styles.arab, {paddingTop: 10}]}>{item.arab}</Text>
+          {hadist.map((item, index) =>
+            <View  key={index} style={[styles.wrapper, {paddingTop: 50, paddingBottom: 15}]}>
+		      		<Text style={[styles.arab]}>{item.arab}</Text>
 		      		<Text style={styles.terjemahan}>{item.arti}</Text>
     				</View>
           )}

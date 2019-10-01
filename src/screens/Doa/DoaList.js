@@ -1,61 +1,52 @@
-import React, { Component } from 'react'
-import {
-  Text,
-  View,
-  TouchableHighlight,
-  Image,
-  TouchableOpacity,
-  StyleSheet,
-  FlatList,
-  Dimensions,
-  ImageBackground,
-  Animated,
-} from 'react-native';
-import styles from './listStyle';
-import Icon from "react-native-vector-icons/MaterialIcons";
+import React, { Component } from 'react';
+import { Container, Header, Tab, Tabs, TabHeading, Icon, Text, View } from 'native-base';
+import { TouchableOpacity, StyleSheet } from 'react-native';
 
-const { width, height } = Dimensions.get('window');
+import Ayat from './Ayat';
+import Hadist from './Hadist';
 
-class DoaList extends Component {
-
+export default class DoaList extends Component {
   render() {
-      const { navigation } = this.props;
-      return (
-        <View style={{flex: 1, backgroundColor: '#ecf2f5'}}>
-
-          <View style={{backgroundColor:'#ffffff', padding: 20, paddingBottom: 5,flexDirection: 'row'}}>
-            <TouchableOpacity style={styles.back} onPress={() => this.props.navigation.goBack()}>
-              <Icon name="arrow-back" color={'rgb(171, 170, 172)'} size={23} />
-            </TouchableOpacity>
-            <Text style={styles.header}> Doa Ruqyah</Text>
-          </View>
-
-          <View style={[styles.flex, styles.column, {height: '85%',}]}>
-            <TouchableOpacity
-              style={[styles.row, styles.touch,]}
-              onPress={() => navigation.navigate('Ayat')}
-            >
-              <ImageBackground
-                source={require('../../../assets/quran.png')}
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  justifyContent: 'flex-end',
-                  alignItems: 'center',
-                }}
-              >
-                <View style={{paddingRight: 20,}}>
-                  <Text style={[styles.type]}>Ayat Al Qur'an</Text>
-                </View>
-              </ImageBackground>
-            </TouchableOpacity>
-
-          </View>
-
+    return (
+      <Container>
+        <View style={{backgroundColor:'#ffffff', padding: 20, paddingBottom: 5,flexDirection: 'row'}}>
+          <TouchableOpacity style={styles.back} onPress={() => this.props.navigation.goBack()}>
+            <Icon name="arrow-back" color={'rgb(171, 170, 172)'} size={23} />
+          </TouchableOpacity>
+          <Text style={styles.header}> Do'a Ruqyah</Text>
         </View>
-      );
-    }
+
+        <Tabs>
+          <Tab heading={ <TabHeading style={styles.tab}><Text style={styles.name}>Al Qur'an</Text></TabHeading>}>
+            <Ayat />
+          </Tab>
+          <Tab heading={ <TabHeading style={styles.tab}><Text style={styles.name}>Hadist</Text></TabHeading>}>
+            <Hadist />
+          </Tab>
+        </Tabs>
+      </Container>
+    );
   }
+}
 
 
-export default DoaList;
+const styles = StyleSheet.create({
+   back: {
+     width: 30,
+     height:40,
+     alignItems: 'flex-start',
+   },
+   header: {
+     fontWeight: 'bold',
+     fontSize: 20,
+   },
+   tab: {
+     backgroundColor: 'rgb(168, 168, 168)',
+   },
+   name: {
+     color: '#fff',
+     fontWeight: 'bold',
+     fontFamily: 'Roboto',
+     fontSize: 17,
+   }
+  })

@@ -1,0 +1,43 @@
+[  {
+    "id": 1,
+    "arab": "حَسْبُنَااللهُ وَنِعْمَ الْوَ كِيْلُ،نِعْمَ الْمَوُلَىوَنِعْمَ النَّصِيْرُ ",
+    "latin":"Hasbunallah wani’mal wakiyl, nikmal maula wani’mannasiyr",
+    "arti": "Cukuplah Allah bagi kami dan dia sebaik-baik pemimpin, sebaik-baik pelindung,sebaik penolong.",
+  },
+  {
+    "id": 2,
+    "arab":"بِسْمِ اللهِ الَّذِ يْ لاَ يَضُرُّ مَعَ اسْمِهِ شَيْ ءٌ فِيالأَرْضِ وَلاَ فِيالسَّمَا ءِ وَهُوَالسَّمِيْعُ اْلعَلِيْمُ ",
+    "latin":"Bismillahilladziy la yadhurru ma’asmihi syai’un fil’ardhi walaa fissama’i wahuwassamiy’ul ‘aliym",
+    "arti": "Dengan nama Allah Yang karena bersama nama-Nya tidak ada sesuatu apapun dilangit atau di bumi mampu mendatangkan bahaya, dan Dialah Maha Mendengar lagi Maha Mengetahui.",
+  },
+  {
+    "id": 3,
+    "arab":"نَعُوْذُ بِكَلِمَا تِ اللهِ التَّا مَّا تِ مِنْ شَرِّ مَا خَلَقَ ",
+    "latin":"Na’uwdzu bikalimaatillahit tammaati min syarrimaa kholaqo",
+    "arti": "Kami berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan makhluk yang Dia ciptakan.",
+  },
+  {
+    "id": 4,
+    "arab":"نَسْأَلُ اللهَ اْلعَظِيْمَ رَبَّ اْلعَرْ شِ اْلعَظِيْمِ أَنْ يَشْفِيَكُمْ ",
+    "latin":"Nas’alullahal ‘adziyma robbal ‘arsyil ‘adziymi ‘an yasyfiyakum",
+    "arti": "Kami memohon kepada Allah yang Maha Agung, Pemilik singgasana yang agung, semoga Dia menyembuhkan kamu sekalian.",
+  },
+  {
+    "id": 5,
+    "arab":"اَللَّهُمَّ أَذْهِبِ اْلبَأْسَ رَبَّ النَّاسِ، اِشْفِ وَ أَنْتَ ا لشَّا فِيْ لاَ شِفَاءَإِلاَّشِفَا ؤُكَ شِفَاءًلاَ يُغَادِرُسَقَمًا ",
+    "latin":"Allahumaa ‘adzhibil ba’sa robbannas, isyfi wa ‘antasyafiy laa syifaa’a ‘illa syifaa ‘uka syifaa’anlaa yughoodiru saqomaa",
+    "arti": "Ya Allah, hilangkan penyakit ini, wahai Penguasa seluruh manusia, sembuhkanlah ! Engkaulah yang menyembuhkan, tidak ada kesembuhan kecuali kesembuhan dari-Mu, sembuhkanlah dengan kesembuhan sempurna tanpa meninggalkan rasa sakit.",
+  },
+  {
+    "id": 6,
+    "arab":"بِسْمِ اللهِ، بِسْمِ اللهِ، بِسْمِ اللهِ،نَعُوْذُ بِعِزَّةِاللهِ وَ قُدْ رَتِهِ مِنْ شَرِّ مَانَجِدُوَنُحَاذِرُ ",
+    "latin":"Bismillahi (3x), na’uwdzu bi’izzatillahi waqudrotihi min syarrimaa najidu wanuhaadziru",
+    "arti": "Dengan nama Allah, dengan Nama Allah, dengan nama Allah, kami berlindung dengan keperkasaan Allah dan kekuasaan-Nya dari kejahatan yang kau hadapi dan kami hindari.",
+  },
+  {
+    "id": 7,
+    "arab":"اللَّهُمَّ إِنَّا نَجْعَلُكَ فِي نُحُوْرِهِمْ وَنَعُوْذُ بِكَ مِنْ شُرُوْرِهِمْ ",
+    "latin":"Allahumma Inna Naj’aluka Fi Nuhurihim, Wa Na’udzubika min Syururihim",
+    "arti": "Ya Allah, sesungguhnya aku menjadikan Engkau di leher mereka (agar kekuatan mereka tidak berdaya) dan aku berlindung dari keburukan mereka.",
+  },
+]
