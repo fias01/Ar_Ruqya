@@ -20,7 +20,7 @@ export default class DoaList extends Component {
           <Tab heading={ <TabHeading style={styles.tab}><Text style={styles.name}>Al Qur'an</Text></TabHeading>}>
             <Ayat />
           </Tab>
-          <Tab heading={ <TabHeading style={styles.tab}><Text style={styles.name}>Hadist</Text></TabHeading>}>
+          <Tab heading={ <TabHeading style={styles.tab}><Text style={styles.name}>As Sunnah</Text></TabHeading>}>
             <Hadist />
           </Tab>
         </Tabs>
