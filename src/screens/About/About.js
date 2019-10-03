@@ -39,14 +39,14 @@ class About extends Component {
             />
             <Text style={[styles.titleFocus]}>Ar Ruqyah</Text>
             <Text style={[styles.note]}>All About Ruqyah in One App</Text>
-            <Text style={[styles.paragraph]}>     Ruqyah Syar'ah adalah metode penyembuhan dengan cara membacakan ayat ayat Al Qur'an serta do'a pilihan pada orang yang sakit akibat dari ‘ain (mata hasad), sengatan hewan, sihir, rasa sakit, gila, kerasukan atau gangguan jin dan juga penyakit yang lain.</Text>
+            <Text style={[styles.paragraph]}>     Ruqyah Syar'ah adalah salah satu metode penyembuhan dengan cara membacakan ayat Al Qur'an serta do'a pilihan pada orang yang sakit akibat dari ‘ain (mata hasad), sengatan hewan, sihir, rasa sakit, gila, atau gangguan jin dan juga penyakit yang lain.</Text>
             <Text style={[styles.paragraph]}>     Aplikasi ini dibuat untuk mempermudah masyarakat dalam mencari tau mengenai metode pengobatan Thibbun Nabawi dan juga berbagai macam obat herbal seperti bidara, madu, kelor dan herbal yang lain, aplikasi ini menyediakan artikel, ayat ayat ruqyah, daftar obar herbal dan juga alamat lokasi peruqyah yang ada di wilayah Indonesia</Text>
             <Text style={[styles.paragraph]}>     Semoga aplikasi ini dapat memberikan banyak manfaat bagi para penggunanaya. Tentunya dalama pengembangan aplikasi ini masih banyak kekurangan, oleh karena itu, masukan dan kritikan dari para pengguna sangat kamu harapkan.</Text>
 
             <View style={styles.main}>
               <Text style={[styles.mainTitle, styles.develop]}>Developer</Text>
               <View style={styles.mainItem}>
-                <Text style={[styles.mainText]}> Fias As Saifullah</Text>
+                <Text style={[styles.mainText]}> Saifullah Muhammad</Text>
               </View>
             </View>
 
