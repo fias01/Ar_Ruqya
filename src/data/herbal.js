@@ -4,10 +4,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Stamina',
     subtitle: 'Meningkatkat Stamina',
-    photo_url: require('../../assets/images/herbal/maduba.jpeg'),
+    photo_url: require('../../assets/images/herbal/bawang2.jpeg'),
     images: [
-      require('../../assets/images/herbal/madubawang1.jpg'),
-      require('../../assets/images/herbal/madubawang2.jpeg')
+      require('../../assets/images/herbal/bawang2.jpeg'),
+      require('../../assets/images/herbal/bawang.jpg'),
+      require('../../assets/images/herbal/bawang1.jpeg'),
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -22,11 +23,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Dispepsia',
     subtitle: 'Atasi Mag dengan Herbal',
-    photo_url: require('../../assets/images/herbal/teh.jpeg'),
+    photo_url: require('../../assets/images/herbal/kencur.jpeg'),
     images: [
-      require('../../assets/images/herbal/teh2.png'),
-      require('../../assets/images/herbal/teh1.png'),
-      require('../../assets/images/herbal/teh3.jpg')
+      require('../../assets/images/herbal/kencur.jpeg'),
+      require('../../assets/images/herbal/kencur1.jpeg'),
+      require('../../assets/images/herbal/kencur2.jpeg'),
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -66,11 +67,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Insomnia',
     subtitle: 'Mengatasi Susah Tidur ',
-    photo_url: require('../../assets/images/herbal/kunyitasam3.jpeg'),
+    photo_url: require('../../assets/images/herbal/madu2.jpeg'),
     images: [
-      require('../../assets/images/herbal/kunyitasam4.jpeg'),
-      require('../../assets/images/herbal/kunyitasam1.jpeg'),
-      require('../../assets/images/herbal/kunyitasam.jpeg')
+      require('../../assets/images/herbal/madu.jpeg'),
+      require('../../assets/images/herbal/madu2.jpeg'),
+      require('../../assets/images/herbal/madu1.jpeg'),
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -85,11 +86,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Diet Sehat',
     subtitle: 'Herbal Untuk Diet Sehat',
-    photo_url: require('../../assets/images/herbal/kunyitasam3.jpeg'),
+    photo_url: require('../../assets/images/herbal/diet3.jpg'),
     images: [
-      require('../../assets/images/herbal/kunyitasam4.jpeg'),
-      require('../../assets/images/herbal/kunyitasam1.jpeg'),
-      require('../../assets/images/herbal/kunyitasam.jpeg')
+      require('../../assets/images/herbal/diet3.jpg'),
+      require('../../assets/images/herbal/diet1.jpeg'),
+      require('../../assets/images/herbal/diet.jpeg'),
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -107,11 +108,10 @@ export const herbal = [
     categoryId: 1,
     title: 'Lelah Fisik',
     subtitle: 'Mengatasi Kelelahan Fisik',
-    photo_url: require('../../assets/images/herbal/kunyitasam3.jpeg'),
+    photo_url: require('../../assets/images/herbal/lelah.jpeg'),
     images: [
-      require('../../assets/images/herbal/kunyitasam4.jpeg'),
-      require('../../assets/images/herbal/kunyitasam1.jpeg'),
-      require('../../assets/images/herbal/kunyitasam.jpeg')
+      require('../../assets/images/herbal/lelah.jpeg'),
+      require('../../assets/images/herbal/lelah2.jpeg'),
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -127,11 +127,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Sesak Nafas',
     subtitle: 'Mengatasi Masalah Pernafasan',
-    photo_url: require('../../assets/images/herbal/kunyitasam3.jpeg'),
+    photo_url: require('../../assets/images/herbal/brustu.jpeg'),
     images: [
-      require('../../assets/images/herbal/kunyitasam4.jpeg'),
-      require('../../assets/images/herbal/kunyitasam1.jpeg'),
-      require('../../assets/images/herbal/kunyitasam.jpeg')
+      require('../../assets/images/herbal/brustu.jpeg'),
+      require('../../assets/images/herbal/brustu1.jpeg'),
+      require('../../assets/images/herbal/brustu2.jpeg')
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -155,11 +155,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Sakit Kepala',
     subtitle: 'Mengatasi Sakit Kepala atau Migran',
-    photo_url: require('../../assets/images/herbal/kunyitasam3.jpeg'),
+    photo_url: require('../../assets/images/herbal/sakitkepala1.jpeg'),
     images: [
-      require('../../assets/images/herbal/kunyitasam4.jpeg'),
-      require('../../assets/images/herbal/kunyitasam1.jpeg'),
-      require('../../assets/images/herbal/kunyitasam.jpeg')
+      require('../../assets/images/herbal/sakitkepala1.jpeg'),
+      require('../../assets/images/herbal/sakitkepala.jpeg'),
+      require('../../assets/images/herbal/sakitkepala2.jpeg')
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -182,11 +182,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Flu dan Batuk',
     subtitle: 'Mengurangi Flu dan Batuk Berdahak',
-    photo_url: require('../../assets/images/herbal/kunyitasam3.jpeg'),
+    photo_url: require('../../assets/images/herbal/batuk1.jpeg'),
     images: [
-      require('../../assets/images/herbal/kunyitasam4.jpeg'),
-      require('../../assets/images/herbal/kunyitasam1.jpeg'),
-      require('../../assets/images/herbal/kunyitasam.jpeg')
+      require('../../assets/images/herbal/batuk1.jpeg'),
+      require('../../assets/images/herbal/batuk.jpeg'),
+      require('../../assets/images/herbal/batuk2.jpeg'),
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -202,11 +202,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Patah Tulang',
     subtitle: 'Mengobati Masalah Tulang',
-    photo_url: require('../../assets/images/herbal/kunyitasam3.jpeg'),
+    photo_url: require('../../assets/images/herbal/gandarusa2.jpg'),
     images: [
-      require('../../assets/images/herbal/kunyitasam4.jpeg'),
-      require('../../assets/images/herbal/kunyitasam1.jpeg'),
-      require('../../assets/images/herbal/kunyitasam.jpeg')
+      require('../../assets/images/herbal/gandarusa2.jpg'),
+      require('../../assets/images/herbal/gandarusa.jpeg'),
+      require('../../assets/images/herbal/gandarusa1.jpeg')
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -230,11 +230,11 @@ export const herbal = [
     categoryId: 1,
     title: 'Kunyit Asam',
     subtitle: 'Minuman Alami Berkhasiat',
-    photo_url: require('../../assets/images/herbal/kunyitasam3.jpeg'),
+    photo_url: require('../../assets/images/herbal/kunyit.jpg'),
     images: [
-      require('../../assets/images/herbal/kunyitasam4.jpeg'),
-      require('../../assets/images/herbal/kunyitasam1.jpeg'),
-      require('../../assets/images/herbal/kunyitasam.jpeg')
+      require('../../assets/images/herbal/kunyit.jpg'),
+      require('../../assets/images/herbal/kunyit1.jpg'),
+      require('../../assets/images/herbal/kunyit2.jpg')
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],

@@ -49,7 +49,6 @@ export const hometic = [
     preview: require('../../assets/images/artikel/artikel1.png'),
     images: [
       require('../../assets/images/artikel/artikel1.png'),
-      require('../../assets/images/artikel/artikel1.2.png'),
       require('../../assets/images/artikel/artikel1.3.png'),
     ]
   },
@@ -65,9 +64,9 @@ export const hometic = [
       '\n\n   Pelaku sihir, bagaimanapun,akan terjerumus ke dalam dua keadaan yang sama-sama buruk; bila   tidak syirik, ia menipu. Padahal syirik dan menipu merupakan dosa besar yang membuat seseorang dibenci Allah  dan tidak mendapatkan ampunan-Nya.',
       '\n\n  Dalam syariat Islam pelaku sihir halal ditumpahkan darahnya, sebab mereka telah berbuat kerusakan di muka bumi. Pendapat ini telah disepakati oleh beberapa sahabat, diantaranya Umar bin Al-Khattab, Jundab dan Hafshah. Tapi mesti dipahami bahwa pelaksaan hukum bunuh itu harus dilaksanakan oleh imam (dalam hal ini pemerintah); bukan idividu atau sekelompok masyarakat.',
     ],
-    preview: require('../../assets/images/artikel/sihir.jpeg'),
+    preview: require('../../assets/images/artikel/baru/sihir3.jpeg'),
     images: [
-      require('../../assets/images/artikel/sihir.jpeg'),
+      require('../../assets/images/artikel/baru/sihir3.jpeg'),
       require('../../assets/images/artikel/sihir2.jpeg'),
     ]
   },
@@ -113,10 +112,10 @@ export const hometic = [
       '\n  - Memasukan material ke tubuh manusia.',
 
     ],
-    preview: require('../../assets/images/artikel/sihir.jpeg'),
+    preview: require('../../assets/images/artikel/baru/indikasi3.jpg'),
     images: [
-      require('../../assets/images/artikel/sihir.jpeg'),
-      require('../../assets/images/artikel/sihir2.jpeg'),
+      require('../../assets/images/artikel/baru/indikasi3.jpg'),
+      require('../../assets/images/artikel/baru/indikasi.jpeg'),
     ]
   },
 ];
@@ -155,9 +154,9 @@ export const mocks = [
       '\n\n   Pelaku sihir, bagaimanapun,akan terjerumus ke dalam dua keadaan yang sama-sama buruk; bila   tidak syirik, ia menipu. Padahal syirik dan menipu merupakan dosa besar yang membuat seseorang dibenci Allah  dan tidak mendapatkan ampunan-Nya.',
       '\n\n  Dalam syariat Islam pelaku sihir halal ditumpahkan darahnya, sebab mereka telah berbuat kerusakan di muka bumi. Pendapat ini telah disepakati oleh beberapa sahabat, diantaranya Umar bin Al-Khattab, Jundab dan Hafshah. Tapi mesti dipahami bahwa pelaksaan hukum bunuh itu harus dilaksanakan oleh imam (dalam hal ini pemerintah); bukan idividu atau sekelompok masyarakat.',
     ],
-    preview: require('../../assets/images/artikel/sihir.jpeg'),
+    preview: require('../../assets/images/artikel/baru/sihir3.jpeg'),
     images: [
-      require('../../assets/images/artikel/sihir.jpeg'),
+      require('../../assets/images/artikel/baru/sihir3.jpeg'),
       require('../../assets/images/artikel/sihir2.jpeg'),
     ]
   },
@@ -179,10 +178,10 @@ export const mocks = [
       '\n  3. Karena faktor mengikut / Iseng.',
       '\n  4. Karena faktor warisan leluhur/ Jin Nasab.',
     ],
-    preview: require('../../assets/images/artikel/sihir.jpeg'),
+    preview: require('../../assets/images/artikel/baru/sebab.png'),
     images: [
-      require('../../assets/images/artikel/sihir.jpeg'),
-      require('../../assets/images/artikel/sihir2.jpeg'),
+      require('../../assets/images/artikel/baru/sebab.png'),
+      require('../../assets/images/artikel/baru/sebab1.jpeg'),
     ]
   },
   {
@@ -224,10 +223,10 @@ export const mocks = [
       '\n\n 4. Serangan Sihir/ Pelet/ Santet',
       '\n 5. Turunan Orang Sakti/ Dukun',
     ],
-    preview: require('../../assets/images/artikel/sihir.jpeg'),
+    preview: require('../../assets/images/artikel/baru/sebab2.jpeg'),
     images: [
-      require('../../assets/images/artikel/sihir.jpeg'),
-      require('../../assets/images/artikel/sihir2.jpeg'),
+      require('../../assets/images/artikel/baru/sebab2.jpeg'),
+      require('../../assets/images/artikel/baru/sebab.png'),
     ]
   },
   {
@@ -272,10 +271,10 @@ export const mocks = [
       '\n  - Memasukan material ke tubuh manusia.',
 
     ],
-    preview: require('../../assets/images/artikel/sihir.jpeg'),
+    preview: require('../../assets/images/artikel/baru/indikasi3.jpg'),
     images: [
-      require('../../assets/images/artikel/sihir.jpeg'),
-      require('../../assets/images/artikel/sihir2.jpeg'),
+      require('../../assets/images/artikel/baru/indikasi3.jpg'),
+      require('../../assets/images/artikel/baru/indikasi.jpeg'),
     ]
   },
   {
@@ -301,10 +300,11 @@ export const mocks = [
 
       '\n\n  Orang yang memiliki karakter dan sifat seperti disebutkan diatas amat mudah mendapat gangguan dari setan dan jin, boleh dibilang hidupnya hampir dikendalikan oleh setan dan jin itu. Kalau anda ingin menghilangkian gangguan setan dan  jin dari diri anda maka hilangkan dulu  sifat seperti diatas dari diri anda . Amatlah sulit bagi anda  untuk membebaskan diri dari gangguan  setan dan jin jika anda masih memiliki sifat dan karakter seperti tersebut diatas.',
     ],
-    preview: require('../../assets/images/artikel/sihir.jpeg'),
+    preview: require('../../assets/images/artikel/baru/mudah.jpeg'),
     images: [
-      require('../../assets/images/artikel/sihir.jpeg'),
-      require('../../assets/images/artikel/sihir2.jpeg'),
+      require('../../assets/images/artikel/baru/mudah.jpeg'),
+      require('../../assets/images/artikel/baru/mudah1.jpeg'),
+      require('../../assets/images/artikel/baru/mudah2.jpeg'),
     ]
   },
   {
@@ -337,10 +337,11 @@ export const mocks = [
       '\n  Karenanya sebagai hamba Allah SWT, kita harus senantiasa meminta perlindungan dari syaitan, jin maupun iblis. Terlebih Jin akan selalu menggoda agar kita melakukan perbuatan yang dilarang Allah SWT.',
 
     ],
-    preview: require('../../assets/images/artikel/sihir.jpeg'),
+    preview: require('../../assets/images/artikel/baru/sembunyi.jpeg'),
     images: [
-      require('../../assets/images/artikel/sihir.jpeg'),
-      require('../../assets/images/artikel/sihir2.jpeg'),
+      require('../../assets/images/artikel/baru/sembunyi.jpeg'),
+      require('../../assets/images/artikel/baru/sembunyi1.jpeg'),
+      require('../../assets/images/artikel/baru/sembunyi2.jpeg'),
     ]
   },
   {
@@ -359,8 +360,7 @@ export const mocks = [
     preview: require('../../assets/images/artikel/artikel2.png'),
     images: [
       require('../../assets/images/artikel/artikel2.png'),
-      require('../../assets/images/artikel/artikel2.2.png'),
-      require('../../assets/images/artikel/artikel2.3.png'),
+      require('../../assets/images/artikel/baru/dicintai.jpeg'),
     ]
   }
 ];
